@@ -1,0 +1,319 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    max-width: 1920px;
+    font-size: 1rem;
+}
+.section1{
+    min-height: 100vh;
+    max-width: 1920px;
+    background-image: url(../images/Rectangle\ 67.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 60% 100%;
+    background-color: #D7D7D7;
+    
+}
+.section1{
+    padding: 3rem 9rem 0rem 10rem;
+}
+.section1 ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul .links{
+    display: flex;
+}
+nav ul .links a{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    display: flex;
+    width: 9.1875vw;
+    height: 2.875rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.section1 ul .contact {
+    text-wrap: nowrap;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #FFF;
+    border-radius: 1.875rem;
+    border: 4px solid #FFF;
+    width: 9.1875rem;
+    height: 2.875rem;
+}
+@media screen and (max-width: 1055px) {
+    .section1{
+        background-image: unset;
+    }
+    nav ul .links a{
+        color: #000;
+    }
+}
+@media screen and (max-width: 740px) {
+    .section1{
+        padding: 0rem;
+    }
+    .section1 nav{
+        height: 3.5635rem;
+        background-color: #000;
+    }
+    .section1 ul{
+        display: none;
+    }
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+}
+.left-writeup{
+    min-width: 40%;
+}
+.writeup h2{
+    color: #000;
+    font-family: Raleway;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+}
+.writeup h1{
+    color: #000;
+    font-family: Raleway;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.writeup p{
+    color: #909090;
+    font-family: Raleway;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.left-icons{
+    display: flex;
+    margin-top: 5rem;
+    gap: 2rem;
+}
+.left-icons img{
+    background: #C4C4C4;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: 7px solid #C4C4C4;
+    width: 37.001px;
+    height: 35.497px;
+    flex-shrink: 0;
+}
+.right img{
+    width: 40vw;
+    height: 80vh;
+    flex-shrink: 0;
+    float: left;
+    margin-top: 2rem;
+}
+
+.section2{
+    background: linear-gradient(90deg, #1D1D1D 31.74%, #1D1D1D 90.49%, #1D1D1D 90.49%);
+    max-width: 1920px;
+    height: 260px;
+    flex-shrink: 0;
+    padding: 3rem;
+}
+.section2 .left2 h3{
+    width: 363px;
+    height: 63px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 5.561px;
+}
+.section2 .left2 p{
+    width: 1000px;
+    height: 89px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: justify;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.682%; /* 20.802px */
+}
+.section2 .left2 h4{
+    width: 139px;
+    height: 25px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.section3{
+    max-width: 1920px;
+    height: 3017px;
+    flex-shrink: 0;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(26, 21, 21, 0.00) 0%, rgba(1, 1, 1, 0.16) 100%), #FFF;
+    padding: 0rem 22rem;
+}
+.section3 .bodywhole{
+    
+
+}
+.section3 .bodywhole .body{
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0rem;
+}
+.body .body-h4{
+    border: 8px solid #000;
+    background: rgba(255, 255, 255, 0.00);
+    width: 300px;
+    height: 80px;
+    flex-shrink: 0; 
+}
+.body .body-h4 h4{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 127.9%; /* 38.37px */
+    letter-spacing: 10.661px;
+    padding: 1rem;
+}
+.section3 .body1 p{
+    color: #050505;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.682%; /* 20.802px */
+    padding: 5rem 0rem;
+}
+.section3 .body2 p{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    height: 25px;
+    flex-shrink: 0;
+    padding-bottom: 7rem;
+}
+.section3 .body3{
+    display: flex;
+    justify-content: center;
+}
+.section3 .body4{
+    display: flex;
+    justify-content: start;
+    gap: 3rem;
+    padding: 4rem 0rem;
+    width: 100%;
+    
+}
+.section3 .body4 .position{
+    position: relative;
+    display: inline-block;
+}
+.section3 .body4 .position h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%, -50%);
+    color: #000;
+    text-align: justify;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.section3 .body5{
+    display: flex;
+    justify-content: start;
+    padding-left: 7rem;
+}
+.section3 .body5 .position{
+    position: relative;
+    display: inline-block;
+}
+.section3 .body5 .position h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%, -50%);
+    color: #000;
+    text-align: justify;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.section3 .body5 .position1 p{
+    width: 80%;
+    padding-bottom: 5rem;
+}
+.section3 .skills h2{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 5.561px;
+    padding: 6rem 0rem 2rem;
+}
+.section3 .skills .skillup1{
+    display: flex;
+    justify-content: space-between;
+}
+.section3 .skills .skillup1 .style{
+    padding: 3rem 0rem;
+}
+.section3 .skills .skillup1 p{
+    padding: 2rem 0rem;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.249px;
+}
